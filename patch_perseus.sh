@@ -29,7 +29,7 @@ if [ ! -f "com.bilibili.blhx.huawei.apk" ]; then
 
     # eg: wget "your download link" -O "your packge name.apk" -q
     #if you want to patch .xapk, change the suffix here to wget "your download link" -O "your packge name.xapk" -q
-    wget https://downali.9game.cn/s1/2/10/20240428205421_blhx_uc_2024_04_26_21_26_31.apk?x-oss-process=udf/uc-apk,ZxHCpEkdZT4bIcK6w5nDpcKuw4rDm8OE0bc7b44f9c1f4b00&did=9b9ae1c45dfd4e14a8af56f42e0d685f -O com.bilibili.blhx.huawei.apk -q
+    wget https://appdl6-drcn.dbankcdn.cn/dl/appdl/application/apk/7e/7e70bd9184a643ddaa4fc6cb9403817c/com.bilibili.blhx.huawei.2211101822.apk -O com.bilibili.blhx.huawei.apk -q
     echo "apk downloaded !"
     
     # if you can only download .xapk file uncomment 2 lines below. (delete the '#')
